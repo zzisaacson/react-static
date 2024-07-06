@@ -62,7 +62,7 @@ const RoutesInner = ({ routePath, render: renderFn }) => {
     // useState's initializer will only fire once per component instance,
     // and it will fire during the first render (unlike an effect, which
     // only fires after the first render). Think of it like a constructor call.
-    if (process.env.REACT_STATIC_ENV === 'production' && staticInfo) {
+    if (process.env.REACT_STATIC_ENV === 'production' && staticInfo && false) {
       const { path, sharedData, sharedHashesByProp, template } = staticInfo
 
       // Hydrate routeInfoByPath with the embedded routeInfo
