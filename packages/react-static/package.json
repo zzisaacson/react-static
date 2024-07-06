@@ -3,7 +3,7 @@
   "description": "A progressive static site generator for React",
   "version": "7.6.2",
   "license": "MIT",
-  "repository": "https://github.com/react-static/react-static",
+  "repository": "https://github.com/zzisaacson/react-static",
   "main": "lib/index.js",
   "types": "src/index.d.ts",
   "engines": {
